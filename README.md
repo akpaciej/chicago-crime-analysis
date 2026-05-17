@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project transforms raw Chicago crime data into a structured analytical workflow using **PostgreSQL** and **Microsoft Power BI** to identify meaningful patterns across crime categories, geographic districts, arrest outcomes, and temporal trends.
+This project transforms raw Chicago crime data into a structured analytical workflow using **PostgreSQL** and **Microsoft Power BI** to identify meaningful patterns across 306k recorded incidents spanning crime categories, geographic districts, arrest outcomes, and temporal trends.
 
 ---
 
@@ -113,7 +113,9 @@ Built in **Microsoft Power BI**.
 - Dynamic drill-down by district and offense type
 - Conditional formatting for concentration patterns
 
-> * * * *[Add dashboard screenshot here]*
+![Dashboard Overview](assets/Chicago-Crime-Dashboard_-_Power_BI.png)
+
+> [Download Power BI Dashboard](dashboard/Chicago-Crime-Visuals.pbix)
 
 ---
 
@@ -174,11 +176,24 @@ Potential future enhancements include:
 
 ```
 ├── sql/
-│   ├── [your query files here]
+│   ├── 01_top_crimes.sql
+│   ├── 02_crimes_by_category.sql
+│   ├── 03_block_hotspots.sql
+│   ├── 04_arrest_rates.sql
+│   ├── 05_annual_trend.sql
+│   ├── 06_domestic_incident_comparison.sql
+│   ├── 07_monthly_trend.sql
+│   └── 08_district_trends.sql
 ├── dashboard/
-│   ├── [your .pbix file here]
-├── data/
-│   ├── [notes on data source / any processed files]
+│   └── Chicago-Crime-Visuals.pbix
+├── assets/
+│   ├── Chicago-Crime-Dashboard_-_Power_BI.png
+│   ├── Screenshot_-_Deceptive_Practice_Dive.png
+│   ├── Screenshot_-_District_11_Narcotics.png
+│   ├── Screenshot_-_Domestic_True__District_6.png
+│   ├── Screenshot_-_July25_Peak.png
+│   ├── Screenshot_-_Most_Active_Hour.png
+│   └── Screenshot_-_Theft_Peak_Observation.png
 └── README.md
 ```
 
