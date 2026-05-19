@@ -36,7 +36,7 @@ Urban crime datasets contain millions of incident-level records that are difficu
 
 ## Solution
 
-A relational database was built in PostgreSQL using the City of Chicago's open crime dataset. Analytical SQL queries were developed to clean, aggregate, and evaluate crime data across multiple dimensions. The processed data was then visualized in Power BI as an interactive crime analytics dashboard.
+A relational database was created in PostgreSQL using the City of Chicago's open crime dataset. Analytical SQL queries were developed to clean, aggregate, and evaluate crime data across multiple dimensions. The processed data was then visualized in Power BI as an interactive crime intelligence dashboard.
 
 ---
 
@@ -113,7 +113,7 @@ Built in **Microsoft Power BI**.
 - Dynamic drill-down by district and offense type
 - Conditional formatting for concentration patterns
 
-![Dashboard Overview](assets/Chicago-Crime-Dashboard_-_Power_BI.png)
+![Dashboard Overview](assets/Chicago-Crime-Dashboard.png)
 
 > [Download Power BI Dashboard](dashboard/Chicago-Crime-Visuals.pbix)
 
